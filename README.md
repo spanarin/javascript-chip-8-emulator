@@ -16,3 +16,7 @@
 - HTML
 - vanilla JavaScript
 - Tailwind CSS with TailwindUI components
+
+## Chip-8 architecture, memory map and instruction set
+
+![Chip-8 architecture, memory map and instruction set](chip-8-architecture.png)
