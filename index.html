@@ -94,9 +94,7 @@
               // Update timers
               if (this.delayTimer > 0) this.delayTimer--;
               if (this.soundTimer > 0) this.soundTimer--;
-
-              // Increment program counter (default behavior)
-              this.pc += 2;
+ 
           }
 
           executeInstruction(opcode) {
@@ -106,6 +104,9 @@
               const kk = opcode & 0x00FF;
               const nnn = opcode & 0x0FFF;
               const n = opcode & 0x000F;
+
+              // Increment program counter (default behavior)
+              this.pc += 2;
 
               switch (opcode & 0xF000) {
                   case 0x0000:
