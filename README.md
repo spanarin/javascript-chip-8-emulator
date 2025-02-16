@@ -12,6 +12,16 @@
 
 ![JavaScript Chip-8 Emulator](demo.png)
 
+## Tests
+
+### IBM Logo test
+Test description: simple test to draw IBM logo [from Tobias' guide](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/#instructions)
+
+Test code: [IBM Logo.ch8](https://github.com/loktar00/chip8/blob/master/roms/IBM%20Logo.ch8)
+
+![IBM Logo test expected result](test-ibm-logo.png)
+
+
 ## Tech stack used
 
 - HTML
@@ -19,5 +29,7 @@
 - Tailwind CSS with TailwindUI components
 
 ## Chip-8 architecture, memory map and instruction set
+
+Full opcodes list: [Gulrak's table of opcodes](https://chip8.gulrak.net)
 
 ![Chip-8 architecture, memory map and instruction set](chip-8-architecture.png)
