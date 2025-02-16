@@ -14,6 +14,8 @@
 
 ## Tests
 
+Full tests suite: [Chip-8 test suite](https://github.com/Timendus/chip8-test-suite/)
+
 ### IBM Logo test
 Test description: simple test to draw IBM logo [from Tobias' guide](https://tobiasvl.github.io/blog/write-a-chip-8-emulator/#instructions)
 
